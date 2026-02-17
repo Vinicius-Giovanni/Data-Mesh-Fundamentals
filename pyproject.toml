@@ -18,4 +18,5 @@ dependencies = [
     "rich>=14.3.2",
     "seaborn>=0.13.2",
     "taipy>=4.1.1",
+    "tqdm>=4.67.3",
 ]
