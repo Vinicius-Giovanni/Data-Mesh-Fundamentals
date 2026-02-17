@@ -141,6 +141,7 @@ Sistema de distribuição, onde temos uma infraestrutura central onde os dados s
 
 #### Anotando o Passo-a-Passo
 
+##### Configurando Ambiente Virtual com UV
 
 **Instalação da biblioteca UV**
     pip install uv
@@ -185,5 +186,24 @@ Na área de trabalho, utilizando o Bash:
 - instalando dependências do projeto
     uv add taipy polars faker python-dotenv duckdb dbt-core dbt-postgres psycopg2 matplotlib seaborn plotly
 
+-----
+
 **Observações**
+
 Ele já cria alguns arquivos automaticamente (.gitignore, .git, .python-version, main.py, pyproject.toml e README.md)
+
+Pode acontecer do interpretador do python estar apontando para o python errado, para listar o "pythons" rode:
+    uv run where python
+Para selecionar o interpretador correto faça o passo-a-passo:
+1. Ctrl + Shift+ P
+2. Digite: Python: Select interpreter
+3. Escolha o que aponta para a sua venv, geralmente (./.venv/)
+
+----
+
+#### Criando um gerador de dados
+
+generate_dataset\generate_raw.py
+
+Evoluir isso:
+Trocar todos os prints por uma biblioteca de log, salvar em algum lugar
