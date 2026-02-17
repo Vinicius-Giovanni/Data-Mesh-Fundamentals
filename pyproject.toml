@@ -1,0 +1,19 @@
+[project]
+name = "data-mesh-fundamentals"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-core>=1.11.5",
+    "dbt-postgres>=1.10.0",
+    "duckdb>=1.4.4",
+    "faker>=40.4.0",
+    "matplotlib>=3.10.8",
+    "plotly>=6.5.2",
+    "polars>=1.38.1",
+    "psycopg2>=2.9.11",
+    "python-dotenv>=1.0.1",
+    "seaborn>=0.13.2",
+    "taipy>=4.1.1",
+]
