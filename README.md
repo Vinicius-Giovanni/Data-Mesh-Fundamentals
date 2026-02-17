@@ -135,7 +135,7 @@ Sistema de distribuição, onde temos uma infraestrutura central onde os dados s
 
 # Dando Inicio ao Projeto
 
-![Desenho do Projeto](assets/desenho_projeto.png)
+![Desenho do Projeto](assets/images/desenho_projeto.png)
 
 ----
 
