@@ -6,6 +6,14 @@
 
 -----
 
+![Projeto](https://img.shields.io/badge/Projeto-WDC-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.12+-green?style=for-the-badge\&logo=python)
+![Data Mesh](https://img.shields.io/badge/Data%20Mesh-Data-blue?style=for-the-badge\&logo=aws)
+![AWS](https://img.shields.io/badge/AWS-Environment-yellow?style=for-the-badge)
+![duckdb](https://img.shields.io/badge/duckdb-Data-blue?style=for-the-badge)
+![Taipy](https://img.shields.io/badge/Taipy-Control-orange?style=for-the-badge)
+![dbt-core](https://img.shields.io/badge/dbt%20core-Control-green?style=for-the-badge)
+
 ## 📋 Sobre
 
 Construção de lakehouse.
@@ -16,28 +24,16 @@ Projeto de melhoria de plataforma de engenharia e IA para empresas.
 
 O real cenário de muitas empresas é a **Ausência de Maturidade & Cenário Corporativo nas Empresas**, silos e feudos de dados departamentais, risco regulatório de vazamentos, ausência latente de governança e visibilidade de dados.
 
-![Silos e Feudos](assets/silos_feudos_de_dados.png)
+![Silos e Feudos](assets/images/silos_feudos_de_dados.png)
 
 Com a desorganização dos **silos** de dados, a 1º ação necessária e padronizar e para isso primeiro devemos saber como cada estratégia funciona:
 
 **Data Warehouse X Data Lakes x Data Lakehouses x Data Mesh**
 *Diferenças, benefícios e oportunidades de geração de valor para as empresas.*
 
-![Diferentes Estratégias de Dados](assets/estrategia_de_datas.png)
-
-**Data Warehouse**
-
-![Projeto](https://img.shields.io/badge/Projeto-WDC-blue?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.12+-green?style=for-the-badge\&logo=python)
-![Data Mesh](https://img.shields.io/badge/Data%20Mesh-Data-blue?style=for-the-badge\&logo=aws)
-![AWS](https://img.shields.io/badge/AWS-Environment-yellow?style=for-the-badge)
-![duckdb](https://img.shields.io/badge/duckdb-Data-blue?style=for-the-badge)
-![Taipy](https://img.shields.io/badge/Taipy-Control-orange?style=for-the-badge)
-![dbt-core](https://img.shields.io/badge/dbt%20core-Control-green?style=for-the-badge)
+![Diferentes Estratégias de Dados](assets/images/estrategia_de_datas.png)
 
 -----
-
-
 
 **Data Warehouse**
 
@@ -65,13 +61,11 @@ Já o **Data Mesh** que é o assunto abordado aqui, possui as mesmas capacidades
 *considerado.*
 *O que queremos aqui é decidir de acordo com as nossas necessidades e da necessidade da empresa, qual é o melhor método/tecnologia para ser usada ?.*
 
-![Especificacoes](assets/especificacoes.png)
+![Especificacoes](assets/images/fundamentos.png)
 
 -----
 
 #### Casos de Uso de Data Mesh
-
-![Data Silos](assets/data_sllos.png)
 
 Data Silos é denominados quando existem diversos ambientes de dados separados entre as áreas de negocios de uma empresa, é onde o Data Mesh entra e organiza os Data Silos em **Use-case-especific**.
 
@@ -106,7 +100,7 @@ Já na estratégia de Self-serve se constite na criação de padronização, com
 
 ***A data mesh is based on four foundational elements.***
 
-![Data Mesh](assets/data_mesh_foundational_elements.png)
+![Data Mesh](assets/images/data_mesh_foundational_elements.png)
 
 1. Federação de dados, com centralização de padrões, com foco em integração de dados, acesso e segurança.
 2. Times de domínios de negócios que transformar dados em produtos de dados
@@ -115,9 +109,9 @@ Já na estratégia de Self-serve se constite na criação de padronização, com
 
 ---
 
-***Modelo de Governanã de Dados - Hub and Spoke***
+***Modelo de Governança de Dados - Hub and Spoke***
 
-![Hub Spoke](assets/hub_spoke.png)
+![Hub Spoke](assets/images/hub_spoke.png)
 
 - **Full mesh federation**
 Os domínios devem se conversar entre si, respeitando as politicas internas. Onde cada um tem a sua responsabilidade e implementações mais rápidas.
@@ -129,13 +123,13 @@ Modelo de atuação hibrido, onde dominios q consomem de um dominio principal, e
 Sistema de distribuição, onde temos uma infraestrutura central onde os dados são distribuidos dentro desse ambiente. O principal dessa estrutura, é a governança, garantindo maior **Data quality**
 
 **Arquitetura Empresarial**
-![Arquitetura Empresarial](assets/arquitetura_empresarial.png)
+![Arquitetura Empresarial](assets/images/arquitetura_empresarial.png)
 
 -----
 #### Como começar com o Data Mesh
 ***Normalmente empresas começam pequeno e escalam com necessidades***
 
-![Escalonamento Empresarial](assets/escalonamento_empresarial.png)
+![Escalonamento Empresarial](assets/images/escalonamento_empresarial.png)
 
 ----
 
