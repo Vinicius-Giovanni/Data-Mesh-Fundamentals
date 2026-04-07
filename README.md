@@ -212,4 +212,5 @@ Trocar todos os prints por uma biblioteca de log, salvar em algum lugar
 
 #### Configurando a Infra do S3 AWS pelo Terraform
 
-Aprender sobre S3 AWS
+###### Basics Terraform
+
